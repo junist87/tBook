@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tBook:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/tBook_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tBook/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tBook" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="Spring-4.3.12.RELEASE" module-name="tBook" />
+          <element id="library" level="module" name="Spring MVC-4.3.12.RELEASE" module-name="tBook" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
